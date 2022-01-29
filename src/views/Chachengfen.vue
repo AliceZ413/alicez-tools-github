@@ -45,7 +45,7 @@ import { api_getSomeRelations } from "../http/apis/chachengfen";
 export default {
   data() {
     return {
-      searchKey: "34584510",
+      searchKey: "",
       list: [
 //           {
 // "mid": 500615835,
