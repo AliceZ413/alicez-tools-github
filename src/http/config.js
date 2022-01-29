@@ -1,5 +1,5 @@
-const ENV = "development"; //体验版
-// const ENV = "production"; //正式版
+// const ENV = "development"; //体验版
+const ENV = "production"; //正式版
 
 //正式环境
 const PROD_DOMAIN = "https://netease-cloud-music-api-jade-phi.vercel.app";
@@ -11,11 +11,13 @@ const context = {
     ENV,
     domain: PROD_DOMAIN,
     ascnki: 'https://asoulcnki.asia',
+    server: 'http://175.178.53.96:8001',
   },
   dev_config: {
     ENV,
     domain: DEV_DOMAIN,
     ascnki: 'https://asoulcnki.asia',
+    server: 'http://localhost:8001',
   },
 };
 
