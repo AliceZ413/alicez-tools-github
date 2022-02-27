@@ -50,6 +50,14 @@ const routes = [
         meta: {
           title: '小作文'
         }
+      },
+      {
+        path: 'chachengfen',
+        name: 'chachengfen',
+        component: () => import(/* webpackChunkName: "music" */'../views/Chachengfen.vue'),
+        meta: {
+          title: '查成分'
+        }
       }
     ],
   },

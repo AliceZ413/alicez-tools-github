@@ -39,6 +39,11 @@ export default {
           text: "小作文",
           // path: '/layout/xiaozuowen',
         },
+        {
+          icon: 'search',
+          text: '查成分',
+          path: '/layout/chachengfen'
+        }
       ],
     };
   },
