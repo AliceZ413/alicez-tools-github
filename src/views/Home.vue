@@ -43,7 +43,12 @@ export default {
           icon: 'search',
           text: '查成分',
           path: 'layout/chachengfen',
-        }
+        },
+        {
+          icon: 'search',
+          text: '语音转文字',
+          path: 'layout/txtToTalk',
+        },
       ],
     };
   },
