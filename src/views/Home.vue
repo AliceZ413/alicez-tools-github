@@ -42,7 +42,7 @@ export default {
         {
           icon: 'search',
           text: '查成分',
-          path: '/layout/chachengfen'
+          path: 'layout/chachengfen',
         }
       ],
     };
