@@ -58,7 +58,15 @@ const routes = [
         meta: {
           title: '查成分'
         }
-      }
+      },
+      {
+        path: 'txtToTalk',
+        name: 'txtToTalk',
+        component: () => import(/* webpackChunkName: "txtToTalk" */'../views/textToTalk.vue'),
+        meta: {
+          title: '文字转语音'
+        }
+      },
     ],
   },
   {
